@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "app",
+    "password": "qwerty",
+    "database": "notif",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+	"test": {
+		"storage": "data/db.sqlite3",
+    "dialect": "sqlite"
+  },
+  "production": {
+		"storage": "data/db.sqlite3",
+    "dialect": "sqlite"
+  }
+}
