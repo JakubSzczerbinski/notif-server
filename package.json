@@ -19,6 +19,6 @@
     "nodemon": "^1.18.3",
     "pg": "^7.4.3",
     "sequelize": "^4.38.0",
-    "sequelize-cli": "^4.0.0",
+    "sequelize-cli": "^4.0.0"
   }
 }
