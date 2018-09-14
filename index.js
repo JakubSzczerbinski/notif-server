@@ -35,7 +35,7 @@ var schema = buildSchema(`
   }
   type Mutation {
     addEvent(name : String!, startTime: String!, endTime: String!, location: String!) : Event!
-    addNotif(title : String!, subtitle : String!, valid : Boolean!, data: String!) : Notification!
+    addNotif(title : String!, subtitle : String!, valid : Boolean!, data: String!, source: String!): Notification!
     invalidateNotif(id : Int!) : Notification!
   }
 `);
