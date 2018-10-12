@@ -8,11 +8,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-			title: {
-        type: Sequelize.STRING
+      title: {
+        type: Sequelize.TEXT
       },
       subtitle: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       valid: {
         type: Sequelize.BOOLEAN
